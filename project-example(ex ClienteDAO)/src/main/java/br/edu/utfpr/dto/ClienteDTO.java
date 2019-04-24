@@ -5,7 +5,6 @@ import lombok.Data;
 import br.edu.utfpr.excecao.NomeClienteMenor5CaracteresException;
 
 @Data
-@Builder
 public class ClienteDTO {
     private int id;
     private String nome;
@@ -20,5 +19,5 @@ public class ClienteDTO {
 
         this.nome = nome;
     }
-    
+
 }

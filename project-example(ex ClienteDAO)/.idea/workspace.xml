@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9a4fea8-4dd8-4ea9-a3d4-0f9ef001a5be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.factorypath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/dao/ClienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/dao/ClienteDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/dao/PaisDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/dao/PaisDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/dto/ClienteDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/dto/ClienteDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/dto/PaisDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/dto/PaisDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/excecao/NomeClienteJaExisteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/excecao/NomeClienteJaExisteException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/negocio/ClienteNegocio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/negocio/ClienteNegocio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.netbeans_automatic_build" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/dao/ClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/utfpr/dao/ClienteDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/dao/PaisDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/utfpr/dao/PaisDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/dto/PaisDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/utfpr/dto/PaisDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/excecao/NomeClienteJaExisteException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/utfpr/excecao/NomeClienteJaExisteException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/negocio/ClienteNegocio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/utfpr/negocio/ClienteNegocio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/.netbeans_automatic_build" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,20 +18,90 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/edu/utfpr/dao/TestaPaisDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+            <state relative-caret-position="1005">
+              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#289#290#0" expanded="true" />
                 <element signature="e#328#329#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/dao/ClienteDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="148" column="4" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#ClienteDAO#0;class#ClienteDAO#0" />
+                <element signature="method#inserir#0;class#ClienteDAO#0" />
+                <element signature="method#update#0;class#ClienteDAO#0" />
+                <element signature="method#delete#0;class#ClienteDAO#0" />
+                <element signature="method#listar#0;class#ClienteDAO#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/negocio/ClienteNegocio.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/dto/ClienteDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/dao/PaisDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="137" column="28" selection-start-line="137" selection-start-column="28" selection-end-line="137" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/dto/PaisDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,6 +116,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/br/edu/utfpr/dao/TestaPaisDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/edu/utfpr/negocio/ClienteNegocio.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/edu/utfpr/dto/ClienteDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/edu/utfpr/dao/PaisDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/edu/utfpr/dto/PaisDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/edu/utfpr/dao/ClienteDAO.java" />
       </list>
     </option>
   </component>
@@ -83,7 +150,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,6 +188,42 @@
               <item name="project-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="project-example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utfpr" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utfpr" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utfpr" type="462c0819:PsiDirectoryNode" />
+              <item name="excecao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utfpr" type="462c0819:PsiDirectoryNode" />
+              <item name="negocio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -142,11 +245,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -207,14 +311,13 @@
     <frame x="-1" y="0" width="1368" height="747" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25377643" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25755286" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3296" />
@@ -225,6 +328,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -245,12 +349,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/edu/utfpr/dao/TestaPaisDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+        <state relative-caret-position="1005">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#289#290#0" expanded="true" />
             <element signature="e#328#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/negocio/ClienteNegocio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/dto/ClienteDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/dto/PaisDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/dao/PaisDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="137" column="28" selection-start-line="137" selection-start-column="28" selection-end-line="137" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/dao/ClienteDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="148" column="4" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#ClienteDAO#0;class#ClienteDAO#0" />
+            <element signature="method#inserir#0;class#ClienteDAO#0" />
+            <element signature="method#update#0;class#ClienteDAO#0" />
+            <element signature="method#delete#0;class#ClienteDAO#0" />
+            <element signature="method#listar#0;class#ClienteDAO#0" />
           </folding>
         </state>
       </provider>

@@ -133,4 +133,33 @@ public class PaisDAO {
         return this.listarTodos().stream().filter(p -> p.getId() == id).findAny().orElseThrow(RuntimeException::new);
     }
 
+    // ***********************************************
+    public PaisDTO getPaisById(int id) {
+        PaisDTO pais = new PaisDTO();
+
+        try (Connection conn = DriverManager.getConnection("jdbc:derby:memory:database")) {
+
+            String sql = "SELECT * FROM pais WHERE id=?";
+
+            PreparedStatement pstm = conn.prepareStatement(sql);
+            pstm.setInt(1, id);
+            log.info("Selecionando um pais ...");
+            ResultSet rs = pstm.executeQuery();
+
+            while (rs.next()) {
+                pais.setId(rs.getInt(1));
+                pais.setNome(rs.getString(2));
+                pais.setSigla(rs.getString(3));
+                pais.setCodigoTelefone(rs.getInt(4));
+            }
+
+            rs.close();
+            pstm.close();
+
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+
+        return pais;
+    }
 }
